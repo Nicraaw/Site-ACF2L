@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarifs - ACF2L</title>
+    <link rel="stylesheet" href="../CSS/Se_connecter.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="../IMG/logo.png" alt="Logo" height="100px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link rounded-3 p-3 mx-3" href="../HTML/Locaux.html">Locaux</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-3 p-3 mx-3" href="../HTML/Tarifs.html">Tarifs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-3 p-3 mx-3" href="../HTML/Profil.html">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-3 p-3 mx-3" href="../HTML/A_propos.html">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active rounded-3 p-3" href="../HTML/Se_connecter.html">Se connecter</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="row w-75  rounded p-4">
+            <h1 class="border-bottom pb-3 mb-4">Connexion</h1>
+            
+            <div class="col-12 text-center">
+                <img src="../IMG/logo.png" alt="Logo ACF2L" class="mb-3" width="20%">
+                <h3 class="fw-bold">Se connecter à ACF2L</h3>
+            </div>
+
+            <div class="col-lg-5 mt-4">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-bold">Adresse e-mail</label>
+                        <input type="email" class="form-control border-0" id="email" placeholder="nom@exemple.com">
+                        <hr class="form-hr">
+                    </div>
+                    <div class="mb-3 position-relative">
+                        <label for="password" class="form-label fw-bold">Mot de passe</label>
+                        <input type="password" class="form-control border-0" id="password" placeholder="Au_travail_les_jeunes!">
+                        <hr class="form-hr">
+                        <i class="bi bi-eye"></i> <!-- icone pour cacher le mdp -->
+                    </div>
+                    <button type="submit" class="btn btn-dark w-100 fw-bold">SE CONNECTER</button>
+                </form>
+                <p class="text-center mt-3">Connection impossible ? <a href="#" class="text-decoration-none fw-bold">Clique ici</a></p>
+            </div>
+
+            <div class="col-lg-2 d-none d-lg-flex align-items-center justify-content-center">
+                <div class="vr-custom" height="100"></div>
+            </div>
+
+            <div class="col-lg-5 mt-4 text-center">
+                <button class="btn btn-outline-dark w-100 mt-4 mb-5 d-flex align-items-center justify-content-center">
+                    <img src="../IMG/google.png" alt="Google" class="me-2" style="width: 20px;">
+                    Continuer avec Google
+                </button>
+                <button class="btn btn-outline-dark w-100 mb-5 d-flex align-items-center justify-content-center">
+                    <img src="../IMG/apple.png" alt="Apple" class="me-2" style="width: 20px;">
+                    Continuer avec Apple
+                </button>
+                <button class="btn btn-outline-dark w-100 d-flex align-items-center justify-content-center">
+                    <img src="../IMG/facebook.png" alt="Facebook" class="me-2" style="width: 20px;">
+                    Continuer avec Facebook
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid bg-dark text-white mt-5 pt-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h5>Notre entreprise</h5>
+              <ul class="list-unstyled">
+                <li><a href="../HTML/A_propos.html" class="text-white">À Propos</a></li>
+                <li><a href="#" class="text-white">Notre Histoire</a></li>
+                <li><a href="#" class="text-white">Politique de confidentialité</a></li>
+                <li><a href="#" class="text-white">Conditions d'utilisation</a></li>
+                <li><a href="#" class="text-white">Nous contacter</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-3">
+              <h5>Nos Services</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Nos Formations</a></li>
+                <li><a href="../HTML/Tarifs.html#ULM_Pendulaire" class="text-white">ULM Pendulaire</a></li>
+                <li><a href="../HTML/Tarifs.html#ULM_Autogire" class="text-white">ULM AutoGire</a></li>
+                <li><a href="../HTML/Tarifs.html#ULM_Multi-axes" class="text-white">ULM Multi-axes</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-3">
+              <h5>Communauté</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Centre d'aide</a></li>
+                <li><a href="#" class="text-white">Les risques</a></li>
+                <li><a href="#" class="text-white">Forum</a></li>
+                <li><a href="#" class="text-white">Notre équipe</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-3">
+              <h5>Nous suivre</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">LinkedIn</a></li>
+                <li><a href="#" class="text-white">Facebook</a></li>
+                <li><a href="#" class="text-white">Instagram</a></li>
+                <li><a href="#" class="text-white">YouTube</a></li>
+                <li><a href="#" class="text-white">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

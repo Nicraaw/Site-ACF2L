@@ -1,0 +1,73 @@
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.card img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+}
+.facture {
+    border: solid 1px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+/* Style pour le bouton qui ajoute au panier */
+.ajouter_au_panier {
+    background-color:#62709D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.ajouter_au_panier:hover {
+    background-color: #218838;
+}
+
+/* Le style pour le bouton qui retire du panier*/
+.retirer_du_panier {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.retirer_du_panier:hover {
+    background-color: #000;
+}
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: none;
+    z-index: 1000;
+    transition: opacity 1s ease;
+}
+
+/*Style de la navbar pour toutes les pages*/
+.nav-link:hover {
+    background-color: grey;
+    color: white !important;
+}
+.nav-link.active:hover {
+    background-color: grey;
+    color: white !important;
+}
+.nav-link.active {
+    background-color: #555;
+    color: white !important;
+}

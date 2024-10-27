@@ -1,0 +1,13 @@
+/*Style de la navbar pour toutes les pages*/
+.nav-link:hover {
+    background-color: grey;
+    color: white !important;
+}
+.nav-link.active:hover {
+    background-color: grey;
+    color: white !important;
+}
+.nav-link.active {
+    background-color: #555;
+    color: white !important;
+}

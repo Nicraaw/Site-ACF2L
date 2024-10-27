@@ -1,0 +1,25 @@
+.vr-custom{
+    width: 3px;
+    height: 100%;
+    background-color: black;
+    border-radius: 1em;
+}
+.form-hr {
+    border: 0;
+    border-top: 1px solid black;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+/*Style de la navbar pour toutes les pages*/
+.nav-link:hover {
+    background-color: grey;
+    color: white !important;
+}
+.nav-link.active:hover {
+    background-color: grey;
+    color: white !important;
+}
+.nav-link.active {
+    background-color: #555;
+    color: white !important;
+}
