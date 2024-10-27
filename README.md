@@ -5,6 +5,7 @@
 2. Répartition des tâches
 3. Analyse et rectifications
 4. Refonte du site
+5. Précision sur le site
 
 ## 1. Maquette 
 
@@ -83,3 +84,9 @@ Interactivité : Ajouter des animations sur les icônes pour indiquer leur fonct
 - Une page de connexion pour effectuer les achats et/ou obtenir certaines informations supplémentaires avec une possibilité d'accessibilité aux Webcams si l'utilisateur en a l'autorisation
 
 - Une page dédié aux Tarifs des différents Baptême (AutoGire, Multi-axes et Pendulaire avec informations et prix)
+
+## 5. Précisions sur le site
+
+- La page Tarifs est interactive avec la facture dynamique.
+- Pour ce qui est du footer les liens fonctionnels sont le "A propos" et les 3 véhicules en dessous de nos formations, les ancres renvoient directement au niveau de la description du véhicule du même nom.
+- J'ai essayé de mettre le maximum de commentaires dans le code Html et Javascript pour que ce soit un peu plus lisible.
