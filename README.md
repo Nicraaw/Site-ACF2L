@@ -13,6 +13,7 @@ https://www.figma.com/design/cUEUVRBnDue1bkfqVTvFF8/ACF2L?node-id=0-1&node-type=
 ## 2. Répartition des tâches
 
 Nicolas BUISSET : Création des maquettes (Figma) + Analyse critiques + rectifications à réaliser sur le site web actuel + Logo
+
 Léonardo HENRIQUES-MATEUS : Réalisation du site WEB (HTML, CSS, JavaScript)
 
 ## 3. Analyse et rectifications
