@@ -17,7 +17,7 @@ Léonardo HENRIQUES-MATEUS : Réalisation du site WEB (HTML, CSS, JavaScript)
 
 ## 3. Analyse et rectifications
 ## Analyse Critique
-# Header : 
+ Header : 
 
 Un très grand espace blanc est présent dès le début de la page avec aucun contenu et uniquement la 2e bannière “Venez pilotez votre ULM !!!” Est bien responsive et prend tout l’espace qui lui est dédié.
 
@@ -25,7 +25,7 @@ La première barre avec le contact est mal placée, ce n’est pas intuitif de m
 
 Couleurs : la couleur des titres sur les images les bannières sont très mal choisis, les lettres ne se reflètent pas et nous devons fournir un effort pour lire correctement ce qu’il est écrit. Cela montre également un manque d’accessibilité pour les malvoyants.
 
-# Catégorie d’ULM : 
+ Catégorie d’ULM : 
 
 Les numérotations 1, 2, 3 … Sont très espacés des 6 classes ULM, nos yeux doivent donc aller chercher l’information par eux-mêmes ce qui nuie à l'ergonomie et la fluidité de la page. La première carte de la catégorie comporte une petite erreur, une image non adaptée à l’espace qui lui est dédié. En revanche, les deux dernières cartes des tarifs sont très bien réalisées avec les informations colorées pour le titre,  l’achat et le prix avec un ajout d’une description pour donner envie au client.
 
@@ -36,12 +36,12 @@ Aucun CSS sur l’image de cette même catégorie, posé brut. Le texte de “no
 
 Les deux catégories “Nos moyennes pédagogiques” et “Photo Gallery” sont mal séparées, les deux background sont identiques.
 
-# Photo Gallery :
+ Photo Gallery :
 
 Lorsque l’utilisateur clique sur une image, il est difficile de savoir que l’on peut switch d’images avec la flèche droite et gauche. De plus, l’image sur laquelle on clique n'apparaît pas forcément en premier (Images concernées : 3, 5, 6, 7) et l’image numéro 4 ne s’affiche pas “The image could not be loaded.”
 
 
-# Footer : 
+ Footer : 
 
 Les images à link ne fonctionnent pas (Facebook, Twitter, LinkedIn, Instagram). De plus, ils auraient pu le link les images pour la localisation (lien Google map) et pour le mail (ouvre directement la boîte mail du lecteur et prépare un futur message à envoyer.).
 
