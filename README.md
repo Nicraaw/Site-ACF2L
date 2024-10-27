@@ -74,4 +74,12 @@ Interactivité : Ajouter des animations sur les icônes pour indiquer leur fonct
 
 ## 4. Refonte du site
 
-Une page dédié à 
+- Une page dédié au Profil avec les informations utilisateurs et la possibilité d'aller regarder les webcams NORD, EST, OUEST des pistes
+
+- Une page dédié à l'entreprise avec toutes les informations (Services, à propos, moyens pédagogiques, Platformes ULM, Hébergement, Vidéo surveillance et sécurité
+
+- Une page dédié à la présentation des Locaux (Hébergement avec Appartement et chambre + Les pistes, hangars et les surfaces de l'entreprise)
+
+- Une page de connexion pour effectuer les achats et/ou obtenir certaines informations supplémentaires avec une possibilité d'accessibilité aux Webcams si l'utilisateur en a l'autorisation
+
+- Une page dédié aux Tarifs des différents Baptême (AutoGire, Multi-axes et Pendulaire avec informations et prix)
